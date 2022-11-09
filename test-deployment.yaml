@@ -2,7 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
-  namespace: flux-config-test-2-ns
+  namespace: arc-test
   labels:
     app: nginx
 spec:
